@@ -4,35 +4,184 @@
   <meta charset="UTF-8">
   <title>GrowSpark Digital</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      text-align: center;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      background: #020617;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 50px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px auto;
+      max-width: 350px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: black;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    iframe {
+      max-width: 400px;
+      width: 100%;
+      height: 220px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    footer {
+      background: #020617;
+      color: white;
+      padding: 15px;
+    }
+  </style>
 </head>
 <body>
-<header>
 
+<!-- NAVIGATION -->
+<nav>
+  <a href="#services">Services</a>
+  <a href="#instagram">Instagram</a>
+  <a href="#video">Video</a>
+  <a href="#design">Design</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HEADER -->
+<header>
   <h1>GrowSpark Digital</h1>
   <p>Grow • Design • Convert</p>
-  <a class="btn" href="https://wa.me/919372828217" target="_blank">Get Free Consultation</a>
+  <a class="btn" href="https://wa.me/919372828217" target="_blank">Free Consultation</a>
 </header>
 
-<section>
+<!-- SERVICES -->
+<section id="services">
   <h2>Our Services</h2>
-  <div class="card"><h3>📈 Instagram Marketing</h3><p>Grow your followers & engagement.</p></div>
-  <div class="card"><h3>🎬 Video Editing</h3><p>Create reels & shorts that convert.</p></div>
-  <div class="card"><h3>🎨 Canva Design</h3><p>Design posts, ads & banners.</p></div>
+
+  <div class="card">
+    <a href="#instagram">
+      <h3>📈 Instagram Marketing</h3>
+      <p>Grow followers & engagement</p>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="#video">
+      <h3>🎬 Video Editing</h3>
+      <p>Reels & Shorts that convert</p>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="#design">
+      <h3>🎨 Canva Design</h3>
+      <p>Posts, ads & creatives</p>
+    </a>
+  </div>
 </section>
 
-<section>
-  <h2>Why Choose Us?</h2>
-  <ul><li>✔ Affordable</li><li>✔ Fast Delivery</li><li>✔ Client-Focused</li></ul>
+<!-- INSTAGRAM SECTION -->
+<section id="instagram">
+  <h2>Instagram Marketing Examples</h2>
+  <img src="https://source.unsplash.com/400x300/?instagram,marketing">
+  <img src="https://source.unsplash.com/400x300/?social,media">
+  <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" allowfullscreen></iframe>
 </section>
 
-<section>
+<!-- VIDEO SECTION -->
+<section id="video">
+  <h2>Video Editing Examples</h2>
+  <img src="https://source.unsplash.com/400x300/?video,editing">
+  <img src="https://source.unsplash.com/400x300/?reels,youtube">
+  <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+</section>
+
+<!-- DESIGN SECTION -->
+<section id="design">
+  <h2>Design Examples</h2>
+  <img src="https://source.unsplash.com/400x300/?graphic,design">
+  <img src="https://source.unsplash.com/400x300/?poster,design">
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <h2>Pricing</h2>
+
+  <div class="card">
+    <h3>Instagram Marketing</h3>
+    <p>₹5,000 / month</p>
+  </div>
+
+  <div class="card">
+    <h3>Video Editing</h3>
+    <p>₹500 per reel</p>
+  </div>
+
+  <div class="card">
+    <h3>Canva Design</h3>
+    <p>₹1,000 / month</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
   <h2>Contact Us</h2>
+  <p>Click below to chat directly on WhatsApp</p>
   <a class="btn" href="https://wa.me/919372828217" target="_blank">Chat on WhatsApp</a>
 </section>
 
 <footer>
   <p>© 2026 GrowSpark Digital</p>
 </footer>
+
 </body>
 </html>
