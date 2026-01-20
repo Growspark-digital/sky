@@ -1,0 +1,7 @@
+body { font-family: Arial; margin:0; background:#f4f6f8; color:#333; text-align:center;}
+header{background:#0f172a;color:white;padding:50px 20px;}
+.btn{display:inline-block;margin-top:15px;padding:12px 20px;background:#22c55e;color:white;text-decoration:none;border-radius:6px;font-weight:bold;}
+section{padding:40px 20px;}
+.card{background:white;margin:15px auto;padding:20px;max-width:400px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+ul{list-style:none;padding:0;}
+footer{background:#020617;color:white;padding:15px;}
